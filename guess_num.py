@@ -15,6 +15,7 @@ class GuessNum:
         self.times = 0
     
     def randnum(self):
+        "生成随机数"
         return random.randint(self.left,self.right)
     
     def compiles(self,guess,number):
